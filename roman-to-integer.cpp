@@ -1,3 +1,8 @@
+#include <iostream>
+#include<string>
+
+using namespace std;
+
 int cases(string A) {
    
     if(A == "I")      return 1;
@@ -38,4 +43,9 @@ int romanToInt(string A) {
     }
     
     return sum;
+}
+
+int main() {
+   cout << romanToInt("XXIV");
+   return 0;
 }
